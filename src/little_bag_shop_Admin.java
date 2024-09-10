@@ -59,7 +59,7 @@ public class little_bag_shop_Admin extends javax.swing.JFrame {
         Deletebags_btn = new javax.swing.JButton();
         ViewallBags_btn = new javax.swing.JButton();
         Bag_Shop_lbl = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        LogOut_btn = new javax.swing.JButton();
 
         jMenu1.setText("jMenu1");
 
@@ -455,12 +455,12 @@ public class little_bag_shop_Admin extends javax.swing.JFrame {
         Bag_Shop_lbl.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Bag_Shop_lbl.setName(""); // NOI18N
 
-        jButton1.setBackground(new java.awt.Color(102, 102, 255));
-        jButton1.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
-        jButton1.setText("Log out");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        LogOut_btn.setBackground(new java.awt.Color(102, 102, 255));
+        LogOut_btn.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        LogOut_btn.setText("Log out");
+        LogOut_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                LogOut_btnActionPerformed(evt);
             }
         });
 
@@ -472,7 +472,7 @@ public class little_bag_shop_Admin extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(LogOut_btn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -483,7 +483,7 @@ public class little_bag_shop_Admin extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(LogOut_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -507,9 +507,9 @@ public class little_bag_shop_Admin extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void LogOut_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LogOut_btnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_LogOut_btnActionPerformed
 
     private void ViewallBags_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewallBags_btnActionPerformed
         // TODO add your handling code here:
@@ -582,13 +582,13 @@ public class little_bag_shop_Admin extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton AddnewBags_btn;
-    private javax.swing.JPanel Admin_dashPanel;
+    public javax.swing.JPanel Admin_dashPanel;
     private javax.swing.JLabel Bag_Shop_lbl;
     private javax.swing.JButton Createcashier_btn;
     private javax.swing.JPanel DashboardAdmin;
     private javax.swing.JButton Deletebags_btn;
+    private javax.swing.JButton LogOut_btn;
     private javax.swing.JButton ViewallBags_btn;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
