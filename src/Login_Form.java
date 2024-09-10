@@ -13,7 +13,6 @@ public class Login_Form extends javax.swing.JFrame {
         Username_lbl = new javax.swing.JLabel();
         paswrd_lbl = new javax.swing.JLabel();
         Paswd_txt = new javax.swing.JTextField();
-        Show_btn = new javax.swing.JCheckBox();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -21,9 +20,10 @@ public class Login_Form extends javax.swing.JFrame {
         setBackground(new java.awt.Color(51, 51, 255));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(204, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 128, 163));
 
-        login_btn.setBackground(new java.awt.Color(51, 102, 255));
+        login_btn.setBackground(new java.awt.Color(255, 77, 126));
+        login_btn.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         login_btn.setText("Login");
         login_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -31,7 +31,8 @@ public class Login_Form extends javax.swing.JFrame {
             }
         });
 
-        reset_btn.setBackground(new java.awt.Color(51, 102, 255));
+        reset_btn.setBackground(new java.awt.Color(255, 77, 126));
+        reset_btn.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         reset_btn.setText("Reset");
         reset_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -39,7 +40,7 @@ public class Login_Form extends javax.swing.JFrame {
             }
         });
 
-        Username_TXT.setBackground(new java.awt.Color(0, 102, 255));
+        Username_TXT.setBackground(new java.awt.Color(255, 229, 236));
         Username_TXT.setText("Enter User Name");
         Username_TXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -48,27 +49,18 @@ public class Login_Form extends javax.swing.JFrame {
         });
 
         Username_lbl.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
-        Username_lbl.setForeground(new java.awt.Color(0, 0, 0));
+        Username_lbl.setForeground(new java.awt.Color(255, 229, 236));
         Username_lbl.setText("User Name :");
 
         paswrd_lbl.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
-        paswrd_lbl.setForeground(new java.awt.Color(0, 0, 0));
+        paswrd_lbl.setForeground(new java.awt.Color(255, 229, 236));
         paswrd_lbl.setText("Password :");
 
-        Paswd_txt.setBackground(new java.awt.Color(0, 102, 255));
+        Paswd_txt.setBackground(new java.awt.Color(255, 229, 236));
         Paswd_txt.setText("Enter Your Password");
         Paswd_txt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Paswd_txtActionPerformed(evt);
-            }
-        });
-
-        Show_btn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Show_btn.setForeground(new java.awt.Color(102, 102, 102));
-        Show_btn.setText("Show");
-        Show_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Show_btnActionPerformed(evt);
             }
         });
 
@@ -77,29 +69,26 @@ public class Login_Form extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(0, 110, Short.MAX_VALUE)
                 .addComponent(login_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29)
                 .addComponent(reset_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(107, 107, 107))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(48, 48, 48)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Show_btn)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(paswrd_lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Username_lbl))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(Username_TXT)
-                            .addComponent(Paswd_txt, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE))))
+                .addGap(50, 50, 50)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(paswrd_lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Username_lbl))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(Username_TXT)
+                    .addComponent(Paswd_txt, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(60, Short.MAX_VALUE)
+                .addContainerGap(86, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Username_lbl)
                     .addComponent(Username_TXT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -107,8 +96,6 @@ public class Login_Form extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(paswrd_lbl)
                     .addComponent(Paswd_txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Show_btn)
                 .addGap(70, 70, 70)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(login_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -116,10 +103,10 @@ public class Login_Form extends javax.swing.JFrame {
                 .addGap(76, 76, 76))
         );
 
-        jPanel2.setBackground(new java.awt.Color(51, 102, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 51, 107));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(255, 229, 236));
         jLabel1.setText("Login Form");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -190,10 +177,6 @@ public class Login_Form extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_Paswd_txtActionPerformed
 
-    private void Show_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Show_btnActionPerformed
-        
-    }//GEN-LAST:event_Show_btnActionPerformed
-
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -228,7 +211,6 @@ public class Login_Form extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Paswd_txt;
-    private javax.swing.JCheckBox Show_btn;
     private javax.swing.JTextField Username_TXT;
     private javax.swing.JLabel Username_lbl;
     private javax.swing.JLabel jLabel1;

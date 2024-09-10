@@ -45,7 +45,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="cc" type="rgb"/>
+          <Color blue="a3" green="80" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
@@ -53,27 +53,22 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="110" max="32767" attributes="0"/>
                   <Component id="login_btn" min="-2" pref="95" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                   <Component id="reset_btn" min="-2" pref="95" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="Show_btn" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="paswrd_lbl" min="-2" pref="103" max="-2" attributes="0"/>
-                              <Component id="Username_lbl" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="Username_TXT" max="32767" attributes="0"/>
-                              <Component id="Paswd_txt" pref="184" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="paswrd_lbl" min="-2" pref="103" max="-2" attributes="0"/>
+                      <Component id="Username_lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Username_TXT" max="32767" attributes="0"/>
+                      <Component id="Paswd_txt" min="-2" pref="184" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -82,7 +77,7 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace pref="60" max="32767" attributes="0"/>
+                  <EmptySpace pref="86" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="Username_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Username_TXT" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -92,8 +87,6 @@
                       <Component id="paswrd_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Paswd_txt" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="Show_btn" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="login_btn" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
@@ -108,7 +101,10 @@
         <Component class="javax.swing.JButton" name="login_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="66" red="33" type="rgb"/>
+              <Color blue="7e" green="4d" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Login"/>
           </Properties>
@@ -119,7 +115,10 @@
         <Component class="javax.swing.JButton" name="reset_btn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="66" red="33" type="rgb"/>
+              <Color blue="7e" green="4d" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Reset"/>
           </Properties>
@@ -130,7 +129,7 @@
         <Component class="javax.swing.JTextField" name="Username_TXT">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="66" red="0" type="rgb"/>
+              <Color blue="ec" green="e5" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Enter User Name"/>
           </Properties>
@@ -144,7 +143,7 @@
               <Font name="Segoe UI Black" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
+              <Color blue="ec" green="e5" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="User Name :"/>
           </Properties>
@@ -155,7 +154,7 @@
               <Font name="Segoe UI Black" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
+              <Color blue="ec" green="e5" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Password :"/>
           </Properties>
@@ -163,7 +162,7 @@
         <Component class="javax.swing.JTextField" name="Paswd_txt">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="66" red="0" type="rgb"/>
+              <Color blue="ec" green="e5" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Enter Your Password"/>
           </Properties>
@@ -171,26 +170,12 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Paswd_txtActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="Show_btn">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="12" style="1"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="Show"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Show_btnActionPerformed"/>
-          </Events>
-        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="66" red="33" type="rgb"/>
+          <Color blue="6b" green="33" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
@@ -221,7 +206,7 @@
               <Font name="Segoe UI Black" size="36" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="33" type="rgb"/>
+              <Color blue="ec" green="e5" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Login Form"/>
           </Properties>
